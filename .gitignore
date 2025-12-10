@@ -1,0 +1,134 @@
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# RStudio project files
+.Rproj.user/
+
+# R Environment
+.Renviron
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# Translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+# pkgdown site
+docs/
+
+# Python (if using reticulate)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (optional - uncomment if data is large)
+# data/raw/*.csv
+# data/processed/*.csv
+# *.xlsx
+# *.xls
+
+# Model files (can be large - uncomment if needed)
+# models/*.rds
+# models/*.h5
+# models/*.pkl
+
+# Large output files
+# results/*.pdf
+# results/*.html
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.buildpath
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Database files
+*.sqlite
+*.db
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Keep directory structure with .gitkeep
+!.gitkeep
+!**/.gitkeep
