@@ -247,7 +247,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Taya Bhavsar**
 
 - 📧 Email: [tayab492@gmail.com](mailto:tayab492@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/taya-bhavsar](https://linkedin.com/in/taya-bhavsar)
+- 💼 LinkedIn: [https://www.linkedin.com/in/tayabhavsar/](https://www.linkedin.com/in/tayabhavsar/)
 - 🌐 GitHub: [@tayabhavsar](https://github.com/tayabhavsar)
 
 ## 🙏 Acknowledgments
