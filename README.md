@@ -167,7 +167,7 @@ Using only the top 3 predictors (alcohol, volatile acidity, sulphates):
 
 ### Alcohol Threshold Analysis
 
-![Alcohol Threshold](results/figures/alcohol_threshold.png)
+![Alcohol Threshold](results/figures/Alcohol%20Threshold%20Analysis.jpeg)
 
 **Key Finding**: Quality probability increases non-linearly with alcohol content:
 - 8.4% alcohol → 60-65% good quality probability
