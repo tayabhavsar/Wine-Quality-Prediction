@@ -177,6 +177,7 @@ Using only the top 3 predictors (alcohol, volatile acidity, sulphates):
 ### Model Comparison
 
 ![ROC Curves](results/figures/ROC%20Curve%20RF%20vs.%20GBM.jpeg)
+
 Random Forest and Gradient Boosting significantly outperform simpler models, with Random Forest achieving the highest AUC (0.89).
 
 ## 💼 Business Impact
