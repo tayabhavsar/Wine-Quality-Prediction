@@ -2,9 +2,9 @@
 
 [![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status](https://img.shields.io/badge/Status-Complete-success)](https://github.com/yourusername/wine-quality-prediction)
+[![Status](https://img.shields.io/badge/Status-Complete-success)](https://github.com/tayabhavsar/Wine-Quality-Prediction)
 
-> Predicting Portuguese red wine quality using ensemble machine learning methods: achieving 81% accuracy while identifying actionable production thresholds for winemakers.
+> Predicting Portuguese red wine quality using ensemble machine learning: achieving 81% accuracy while identifying actionable production thresholds for winemakers.
 
 ## 📊 Project Overview
 
@@ -34,10 +34,6 @@ This project demonstrates how machine learning can replace costly, subjective ex
 ## 📁 Repository Structure
 
 ```
-wine-quality-prediction/
-## 📁 Repository Structure
-
-```
 Wine-Quality-Prediction/
 ├── README.md                          # Project overview and documentation
 ├── .gitignore                         # Git ignore rules
@@ -45,9 +41,7 @@ Wine-Quality-Prediction/
 ├── data/
 │   ├── README.md                      # Data documentation and dictionary
 │   ├── raw/                           # Original dataset location
-│   └── processed/                     # Preprocessed data (if applicable)
-│
-├── models/                            # Saved model objects (.rds files)
+│   └── processed/                     # Preprocessed data
 │
 ├── notebooks/                         # R Markdown analysis notebooks
 │
@@ -57,23 +51,18 @@ Wine-Quality-Prediction/
 │   └── final_report.pdf               # Comprehensive analysis report
 │
 ├── results/
-│   ├── figures/                       # Visualizations and plots
-│   ├── tables/                        # Performance metrics tables
+│   └── figures/                       # Visualizations and plots
 │
 └── scripts/                           # R scripts for data processing and modeling
 ```
 
-### Key Files
+### Key Components
 
 - **README.md**: Complete project documentation with methodology, results, and usage instructions
 - **data/README.md**: Detailed data dictionary with variable descriptions and preprocessing steps
-- **reports/**: Three comprehensive PDF documents covering proposal, presentation, and final analysis
-- **models/**: Saved trained models for reproducibility
-- **results/**: All figures, tables, and metrics generated during analysis
-
-### Usage
-
-All analysis can be reproduced by running the scripts in the `notebooks/` or `scripts/` directories in sequence. See individual files for specific usage instructions.
+- **reports/**: Three comprehensive PDF documents covering the entire project lifecycle
+- **results/figures/**: All visualizations including feature importance, ROC curves, and threshold analyses
+- **notebooks/** & **scripts/**: R code for reproducible analysis
 
 ## 🚀 Getting Started
 
@@ -98,30 +87,14 @@ install.packages(c(
 
 ### Quick Start
 
-```r
+```bash
 # Clone the repository
-git clone https://github.com/yourusername/wine-quality-prediction.git
-cd wine-quality-prediction
+git clone https://github.com/tayabhavsar/Wine-Quality-Prediction.git
+cd Wine-Quality-Prediction
 
-# Open R/RStudio and run the main analysis
-source("scripts/train_models.R")
-
-# Or open notebooks in order:
-# notebooks/01_exploratory_analysis.Rmd
-# notebooks/02_logistic_regression.Rmd
-# ... etc.
-```
-
-### Running the Analysis
-
-```r
-# Option 1: Run complete pipeline
-source("scripts/data_preprocessing.R")
-source("scripts/train_models.R")
-source("scripts/evaluate_models.R")
-
-# Option 2: Work through notebooks interactively
-# Open RStudio → File → Open → Select .Rmd files
+# Open R/RStudio and explore the analysis
+# Start with the reports in reports/ folder
+# Then examine code in notebooks/ or scripts/
 ```
 
 ## 📈 Model Performance Comparison
@@ -273,9 +246,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Taya Bhavsar**
 
-- 📧 Email: [tayab492@gmail.com]
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
+- 📧 Email: [tayab492@gmail.com](mailto:tayab492@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/taya-bhavsar](https://linkedin.com/in/taya-bhavsar)
+- 🌐 GitHub: [@tayabhavsar](https://github.com/tayabhavsar)
 
 ## 🙏 Acknowledgments
 
