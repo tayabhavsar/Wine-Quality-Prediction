@@ -158,7 +158,7 @@ Using only the top 3 predictors (alcohol, volatile acidity, sulphates):
 
 ### Feature Importance
 
-![Feature Importance](results/figures/feature_importance.png)
+![Feature Importance](results/figures/Logistic%20Regression%20Predictor%20Coefficents.jpeg)
 
 **Top 3 Predictors Across All Models:**
 1. **Alcohol** (32-35% importance): Strongest positive predictor
