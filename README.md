@@ -35,51 +35,45 @@ This project demonstrates how machine learning can replace costly, subjective ex
 
 ```
 wine-quality-prediction/
-├── README.md                          # Project overview (you are here)
-├── LICENSE                            # MIT License
+## 📁 Repository Structure
+
+```
+Wine-Quality-Prediction/
+├── README.md                          # Project overview and documentation
 ├── .gitignore                         # Git ignore rules
 │
 ├── data/
-│   ├── raw/
-│   │   └── winequality-red.csv       # Original UCI dataset
-│   ├── processed/
-│   │   └── wine_cleaned.csv          # Preprocessed data
-│   └── README.md                      # Data documentation
+│   ├── README.md                      # Data documentation and dictionary
+│   ├── raw/                           # Original dataset location
+│   └── processed/                     # Preprocessed data (if applicable)
 │
-├── notebooks/
-│   ├── 01_exploratory_analysis.Rmd   # EDA & correlation analysis
-│   ├── 02_logistic_regression.Rmd    # Baseline interpretable model
-│   ├── 03_classification_trees.Rmd   # Decision trees & thresholds
-│   ├── 04_ensemble_methods.Rmd       # Random Forest & Gradient Boosting
-│   └── 05_model_comparison.Rmd       # Final comparative analysis
+├── models/                            # Saved model objects (.rds files)
 │
-├── scripts/
-│   ├── data_preprocessing.R          # Data cleaning pipeline
-│   ├── train_models.R                # Model training functions
-│   ├── evaluate_models.R             # Performance metrics
-│   └── create_visualizations.R       # Generate all plots
+├── notebooks/                         # R Markdown analysis notebooks
 │
-├── models/
-│   ├── logistic_model.rds            # Saved logistic regression
-│   ├── random_forest.rds             # Saved RF model
-│   └── gradient_boosting.rds         # Saved GBM model
+├── reports/
+│   ├── proposal.pdf                   # Project proposal
+│   ├── presentation.pdf               # Final presentation slides
+│   └── final_report.pdf               # Comprehensive analysis report
 │
 ├── results/
-│   ├── figures/                       # All visualizations
-│   │   ├── correlation_matrix.png
-│   │   ├── feature_importance.png
-│   │   ├── roc_curves.png
-│   │   ├── alcohol_threshold.png
-│   │   └── model_comparison.png
-│   └── tables/
-│       ├── model_performance.csv
-│       └── feature_importance.csv
+│   ├── figures/                       # Visualizations and plots
+│   ├── tables/                        # Performance metrics tables
 │
-└── reports/
-    ├── proposal.pdf                   # Project proposal
-    ├── presentation.pdf               # Final presentation slides
-    └── final_report.pdf               # Comprehensive analysis report
+└── scripts/                           # R scripts for data processing and modeling
 ```
+
+### Key Files
+
+- **README.md**: Complete project documentation with methodology, results, and usage instructions
+- **data/README.md**: Detailed data dictionary with variable descriptions and preprocessing steps
+- **reports/**: Three comprehensive PDF documents covering proposal, presentation, and final analysis
+- **models/**: Saved trained models for reproducibility
+- **results/**: All figures, tables, and metrics generated during analysis
+
+### Usage
+
+All analysis can be reproduced by running the scripts in the `notebooks/` or `scripts/` directories in sequence. See individual files for specific usage instructions.
 
 ## 🚀 Getting Started
 
