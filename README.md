@@ -55,15 +55,6 @@ Wine-Quality-Prediction/
 │
 └── scripts/                           # R scripts for data processing and modeling
 ```
-
-### Key Components
-
-- **README.md**: Complete project documentation with methodology, results, and usage instructions
-- **data/README.md**: Detailed data dictionary with variable descriptions and preprocessing steps
-- **reports/**: Three comprehensive PDF documents covering the entire project lifecycle
-- **results/figures/**: All visualizations including feature importance, ROC curves, and threshold analyses
-- **notebooks/** & **scripts/**: R code for reproducible analysis
-
 ## 🚀 Getting Started
 
 ### Prerequisites
